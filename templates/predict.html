@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Predict
+{% endblock %}
+
+{% block body %}
+
+{% if sentiment %}The sentiment is {{sentiment}} {% else %}No prompt given{% endif %}
+
+{% endblock %}
